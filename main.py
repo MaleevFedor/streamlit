@@ -16,4 +16,4 @@ for i in open('data.csv', encoding="UTF-8").readlines()[1:]:
         st.markdown(theme, unsafe_allow_html=True)
         k += 1
 
-st.write(f'В этот день написанно {k} статей')
+st.write(f'В этот день написанно {k} статьи')
